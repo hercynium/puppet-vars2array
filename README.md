@@ -1,9 +1,10 @@
-puppet-blkid-info
+puppet-vars2array
 =================
 
-This is a puppet module with a facter plugin to set facts from the
-blkid command on linux systems, and a puppet function to turn those
-facts into a more-easily-managable data structure.
+This is a puppet module with a function that takes variables matching
+a pattern and creates an array with their values. Parts of the var names
+can also be extracted with regexp captures and added to the array as well.
+This can be useful if you use the array2hash function from puppet-stdlib.
 
 Docs and a proper module structure Coming Soon(tm)
 
